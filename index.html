@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELIZABETH CHIBUZO</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: blue;
+        }
+        body{
+            background-color: lightpink;
+            font-family: verdana, sans-serif, Geneva, tahoma;
+            overflow-x: hidden;
+        }
+        header{
+            width: 100%;
+            padding: 20px;
+        }
+        header>h1{
+            margin: 10px;
+            text-align: center;
+            font-size: 23px;
+        }
+        header hr{
+            border-color: rgb(5, 5, 5);
+        }
+        main{
+            display: block; 
+            padding: 2rem 1.5rem;
+        }
+        main > section{
+            margin-bottom: 40px;
+        }
+
+        main > section#image-section{
+            width: 100%;
+            border-radius: 4px;
+            overflow: hidden;
+         }
+         /* 
+         style image here
+          */
+          main > section#info{
+              width: 100%;
+              padding: 15px;
+              border: 1px blue;
+              border-radius: 6px;
+              background-color: rgb(248, 245, 245);
+              box-shadow: salmon 4px 4px 8px;
+          }
+          main > section#info >h2{
+              margin: 10px;
+              margin-bottom: 15px;
+              text-align: center;
+          }
+          main > section#info >p{
+              margin-bottom: 10px;
+          }
+          main > section#info >div{
+              width: 40%;
+              margin: 20px auto;
+          }
+          main > section#info> a{
+              width: 100%;
+          }
+          main > section#info button{
+              width: 100%;
+              height: 50px;
+              border: 0px;
+              border-radius: 5px;
+              background-color: rgb(69, 212, 100);
+              font-weight: 600;
+              font-size: 12pt;
+              transition-duration: 500ms;
+          }
+          main > section#info button:hover{
+              cursor: pointer;
+              color: white;
+              box-shadow: rgb(3, 168, 85);
+          }
+          footer{
+              margin: -30px 50px 20px 50px;
+              padding: 20px;
+              background-color: rgb(10, 10, 9);
+          }
+          footer p{
+              text-align: center;
+              color: rgb(16, 223, 109);
+              font-size: 11pt;
+          }
+          /* media queries */
+          @media(min-width: 768px){
+              header{
+                  height: 15vh;
+                  background-color: white;
+              }
+              header > h1{
+                  text-align: left;
+              }
+              main{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+              }
+              main > section#image-section{
+                  width: 50%;
+              }
+              main > section#info{
+                  width: 50%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+              }
+          }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ELIZABETH CHIBUZO</h1>
+    <hr>
+    </header>
+    <main>
+        <section id="image-section">
+            <img src="PIC.JPG" alt="PIC.JPG"
+             title="ELIZABETH CHIBUZO" width="100%" height="auto">
+        </section>
+             <Section id="info">
+                 <h2>About Me</h2>
+                 <p>Hey! i`m Elizabeth Chibuzo, but my friends call me <b>LIZZY</b>, thus you can 
+                     call me LIZZY. I am a lady that believes in positivity.
+                     From the way technology is evolving, and almost everything is digitalized,my love for technology increased.
+                     This lead me in taking interest in web design, i love coding, and front end developing aspect of web designing.</p>
+                <p>I love learning and trying new things. I also love seeing women, doing great things and exploring the world of technology, there are lots of female developers and coders out 
+                         there who motivates me, and am telling them to keep it up,keep inspiring us.</p>
+                         <p>I would like to connect with you on social media, link me up on any of my social media handles am dropping        
+                         </p>     
+                  <div>
+                      <a href=facebook:lizzy chibuzo Ezugwu>facebook</a><br>
+                          <a href=whatsapp:08146740332>whatsapp</a><br>
+                              <a href=instagram:ezy_lizzy>instagram</a><br>
+                      <a href="mailto:bettysimonlizzy@gmail.com" subject="i would like to meet you">mail me</a><br>
+                          <button>Get in touch</button>
+                  </div>       
+             </Section>
+            </main>
+                 <footer>
+                     <p>Elizabeth Chibuzo Copyright &copy; 2020 - All Rights Reserved   
+                     </p>
+                 </footer>
+</body>
+</html>
